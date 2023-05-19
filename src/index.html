@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>FUNDACIÓN EL GATITO</h1>
+
+  <h4>
+    ¿Nunca has tenido animales, pero te gustaría ayudar a uno?, ¿No sabes cómo hacerlo, ni por dónde empezar?,
+    ¿Te gustaría ayudar, aunque no puedas adoptar en este momento? Si contestaste a todas las preguntas con un sí,
+    presta atención a estas 5 fáciles alternativas que te permitirán colaborar en la conservación y bienestar animal.
+    DONANDO[…]
+  </h4>
+ <div class="contenedor">
+
+  <div>
+    <h3>"gracias por tu ayuda hacia  Marcelo"</h3>
+  <img
+  class="gatito" width="400"
+ src="https://www.nuevamujer.com/resizer/IO3PurzMHpCbsUDgQfudv1-0YTA=/800x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/HAU45CHDAFFH5EFLHBD5NPUOWY.jpg" ></img>
+  </div>
+
+  <div class="photo">
+    <label>NOMBRE PROPIETARIO:</label><br>
+    <input type="text" placeholder="nombre completo">
+    <br>
+
+
+
+
+    <br><label>NUMERO DE TARJETA:</label>/<br>
+    <input type="text" id="numeroTAR" class="numTARJETA" maxlength="16" pattern="[0-9]+"
+      placeholder="#### #### #### 1234" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)">
+  </div>
+  <div class="boton">
+    <input type="submit" id="validar" value="validacion">
+  </div></div>
+
+
+
+
+  <main></main>
+  <footer></footer>
+  <script src="index.js" type="module"></script>
+
+</body>
+
 </html>
